@@ -1,11 +1,11 @@
 <script>
-	export let name;
+	import Variables from './components/Variables.svelte'
+	import ArrayDeconstruct from './components/ArrayDeconstruct.svelte'
+	import ObjectDeconstruct from './components/ObjectDeconstruct.svelte'
+	import Classes from './components/Classes.svelte'
 </script>
 
-<style>
-	h1 {
-		color: purple;
-	}
-</style>
-
-<h1>Hello {name}!</h1>
+<Variables title='ES6' />
+<hr><ArrayDeconstruct />
+<hr><ObjectDeconstruct />
+<hr><Classes />
